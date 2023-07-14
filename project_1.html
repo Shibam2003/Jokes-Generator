@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Jokes</title>
+    <style>
+        body{
+            background-color:  rgb(0, 77, 128);
+        }
+    
+        .container{
+            background-color: white;
+            color:black;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid red;
+            /* width: 438px; */
+            width: 50%;
+            height: 429px;
+            margin: auto;
+            margin-top: 12%;
+            border-radius: 12px;
+            
+        }
+        .joke{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            justify-content: center;
+            align-items: center;
+            background-color:green;
+            color: white;
+            border-radius: 12px;
+            margin-top: 34px;
+            width: 120px;
+            display: flex;
+            height: 34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3><u>BEST JOKES  TO MAKE YOUR DAY</u></h3>
+        <div id="joke" class="joke">Awesome Joke is loading...</div>
+        <button id="jokeBtn" class="btn">Next Joke</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
